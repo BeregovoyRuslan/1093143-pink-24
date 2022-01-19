@@ -60,19 +60,19 @@
                 шанс выиграть ценный приз — 1000<br>
                 миль на вашу бонусную карту!
               </p>
-              <ul class="name__list">
-                <li class="surname__item">
-                  <label class="surname__label" for="surname-field">Фамилия:</label><br>
-                  <input class="surname__field" id="surname-field" type="text" name="surname"
+              <ul class="form__name-list">
+                <li class="form__surname-item">
+                  <label class="form__surname-label" for="surname-field">Фамилия:</label><br>
+                  <input class="form__surname-field" id="surname-field" type="text" name="surname"
                     placeholder="Укажите фамилию*">
                 </li>
-                <li class="name__item">
-                  <label class="name__label" for="name-field">Имя:</label><br>
-                  <input class="name__field" id="name-field" type="text" name="name" placeholder="Введите ваше имя*">
+                <li class="form__name-item">
+                  <label class="form__name-label" for="name-field">Имя:</label><br>
+                  <input class="form__name-field" id="name-field" type="text" name="name" placeholder="Введите ваше имя*">
                 </li>
-                <li class="fathername__item">
-                  <label class="fathername__label" for="fathername-field">Отчество:</label><br>
-                  <input class="fathername__field" id="fathername-field" type="text" name="fathername"
+                <li class="form__fathername-item">
+                  <label class="form__fathername-label" for="fathername-field">Отчество:</label><br>
+                  <input class="form__fathername-field" id="fathername-field" type="text" name="fathername"
                     placeholder="Ну и отчество тоже*">
                 </li>
               </ul>
@@ -80,7 +80,7 @@
 
             <fieldset class="voyage">
               <legend class="voyage__title">
-                <h3 class="voyage__title-text">Ваши безбашенные<br>достижения в путешествии</h3>
+                <h3 class="voyage__title-text">Ваши безбашенные <br>достижения в путешествии</h3>
               </legend>
               <ul class="voyage__list">
                 <li class="voyage__item">
@@ -113,45 +113,45 @@
             <div class="form__contacts">
               <ul class="form__contacts-list">
                 <li class="form__contacts-item">
-                  <label class="tel__number-label" for="tel__number">Номер телефона</label><br>
-                  <input class="tel__number-field" id="tel__number" type="tel" name="tel__number"
+                  <label class="form__contacts-tel-number-label" for="tel__number">Номер телефона</label><br>
+                  <input class="form__contacts-tel-number-field" id="tel__number" type="tel" name="tel__number"
                     placeholder="Номер, пожалуйста">
                 </li>
                 <li class="form__contacts-item">
-                  <label class="email__label" for="email">Адрес почты</label><br>
-                  <input class="email__field" id="email" type="email" name="email" placeholder="Введите почту*">
+                  <label class="form__contacts-email-label" for="email">Адрес почты</label><br>
+                  <input class="form__contacts-email-field" id="email" type="email" name="email" placeholder="Введите почту*">
                 </li>
               </ul>
             </div>
 
-            <fieldset class="voyage__app">
-              <legend class="voyage__app-title">
-                <h3 class="voyage__app-title-text">С каким приложением<br>путешествовали?</h3>
+            <fieldset class="voyage-app">
+              <legend class="voyage-app__title">
+                <h3 class="voyage-app__title-text">С каким приложением <br>путешествовали?</h3>
               </legend>
-              <ul class="voyage__app-list">
-                <li class="voyage__app-item">
-                  <input class="voyage__app-icon" type="radio" name="voyage_app" value="ios" id="ios" checked>
-                  <label class="voyage__app-label" for="ios">Pink для iOS</label>
+              <ul class="voyage-app__list">
+                <li class="voyage-app__item">
+                  <input class="voyage-app__icon" type="radio" name="voyage_app" value="ios" id="ios" checked>
+                  <label class="voyage-app__label" for="ios">Pink для iOS</label>
                 </li>
-                <li class="voyage__app-item">
-                  <input class="voyage__app-icon" type="radio" name="voyage_app" value="android" id="android">
-                  <label class="voyage__app-label" for="android">Pink на Android</label>
+                <li class="voyage-app__item">
+                  <input class="voyage-app__icon" type="radio" name="voyage_app" value="android" id="android">
+                  <label class="voyage-app__label" for="android">Pink на Android</label>
                 </li>
-                <li class="voyage__app-item">
-                  <input class="voyage__app-icon" type="radio" name="voyage_app" value="w_phone" id="w-phone">
-                  <label class="voyage__app-label" for="w-phone">Windows Phone</label>
+                <li class="voyage-app__item">
+                  <input class="voyage-app__icon" type="radio" name="voyage_app" value="w_phone" id="w-phone">
+                  <label class="voyage-app__label" for="w-phone">Windows Phone</label>
                 </li>
               </ul>
             </fieldset>
 
-            <div class="form__comments">
-              <label class="comments__label" for="form_comments">Опишите свои емоции</label><br>
-              <textarea class="comments__field" id="form_comments" name="form_comments"
+            <div class="form-comments">
+              <label class="form-comments__label" for="form_comments">Опишите свои емоции</label><br>
+              <textarea class="form-comments__field" id="form_comments" name="form_comments"
                 rows="5">Можно прям в красках, не стесняясь в выражениях</textarea>
             </div>
 
             <button class="form__send" type="submit">Отправить форму</button>
-            <p class="form_attention">* — обязательные поля</p>
+            <p class="form__attention">* — обязательные поля</p>
 
           </form>
         </div>
@@ -199,7 +199,7 @@
       Проверьте поля, выделенные красным,<br>
       скорее всего вы забыли их заполнить
     </p>
-    <button class="form__send" type="button">OK</button>
+    <button class="modal__send" type="button">OK</button>
   </section>
 
   <!--Модальное окно - успех-->
@@ -211,7 +211,7 @@
       время мы рассмотрим ее и<br>
       оповестим вас.
     </p>
-    <button class="form__send" type="button">Закрыть окно</button>
+    <button class="modal__send" type="button">Закрыть окно</button>
   </section>
 
 </body>
